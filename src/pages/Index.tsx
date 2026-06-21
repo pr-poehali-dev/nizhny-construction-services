@@ -20,7 +20,7 @@ const FACADE_1 = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562
 const FACADE_2 = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/bucket/77ef9ed0-2dad-483d-8099-afa32f348dd4.jpg';
 
 const PORTFOLIO = [
-  { img: 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/bucket/fac2a65c-2742-44b9-bd4d-003adfeab27b.png', title: 'Беседка с мангалом', place: 'Бор', double: false },
+  { img: 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/bucket/f918a61d-0933-453d-a612-22c516fe5d24.jpg', title: 'Беседка', place: 'Бор', double: false },
   { img: FACADE_2, img2: FACADE_1, title: 'Фасад дома', place: 'Кстово', double: true },
   { img: 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/bucket/9c76099e-8e47-44fd-89ee-d73db58c710b.jpg', title: 'Каркасный дом', place: 'Дзержинск', double: false },
 ];
