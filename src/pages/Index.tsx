@@ -58,7 +58,7 @@ export default function Index() {
             <div className="w-9 h-9 bg-primary flex items-center justify-center rounded-sm">
               <Icon name="Hammer" className="text-primary-foreground" size={20} />
             </div>
-            <span className="font-display font-bold text-xl tracking-wide uppercase">СтройВектор</span>
+            <span className="font-display font-bold text-xl tracking-wide uppercase">ТвойСтрой</span>
           </div>
           <nav className="hidden md:flex items-center gap-7">
             {NAV.map((n) => (
@@ -224,7 +224,7 @@ export default function Index() {
             <span className="text-primary uppercase tracking-widest text-sm font-medium">04 — О компании</span>
             <h2 className="font-display font-bold uppercase text-4xl sm:text-5xl mt-2 mb-5">Опыт, которому доверяют</h2>
             <p className="text-muted-foreground mb-6">
-              С 2014 года «СтройВектор» строит надёжные объекты по всей Нижегородской области.
+              С 2014 года «ТвойСтрой» строит надёжные объекты по всей Нижегородской области.
               Собственные бригады, своя техника и проверенные поставщики материалов.
               Работаем по договору, фиксируем смету и сроки.
             </p>
@@ -291,7 +291,7 @@ export default function Index() {
             <div className="w-8 h-8 bg-primary flex items-center justify-center rounded-sm">
               <Icon name="Hammer" className="text-primary-foreground" size={18} />
             </div>
-            <span className="font-display font-bold uppercase tracking-wide">СтройВектор</span>
+            <span className="font-display font-bold uppercase tracking-wide">ТвойСтрой</span>
           </div>
           <p className="text-sm text-muted-foreground">© 2026 Строительство под ключ по Нижегородской области</p>
         </div>
