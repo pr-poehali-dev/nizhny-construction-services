@@ -32,7 +32,7 @@ const STATS = [
   { value: '12', label: 'лет на рынке' },
   { value: '640+', label: 'объектов сдано' },
   { value: '38', label: 'районов области' },
-  { value: '5 лет', label: 'гарантии' },
+  { value: '1 год', label: 'гарантии' },
 ];
 
 const NAV = [
@@ -92,7 +92,7 @@ export default function Index() {
             </h1>
             <p className="text-lg text-muted-foreground max-w-xl mb-9 animate-float-up" style={{ animationDelay: '0.2s' }}>
               Беседки, заборы, каркасы, фасады, кровля и внутренняя отделка под ключ.
-              Работаем по всей Нижегородской области с гарантией 5 лет.
+              Работаем по всей Нижегородской области с гарантией 1 год.
             </p>
             <div className="flex flex-wrap gap-4 animate-float-up" style={{ animationDelay: '0.3s' }}>
               <Button size="lg" onClick={() => scrollTo('contacts')}
@@ -113,7 +113,7 @@ export default function Index() {
         <div className="flex whitespace-nowrap animate-marquee">
           {[...Array(2)].map((_, i) => (
             <div key={i} className="flex items-center">
-              {['Беседки', 'Заборы', 'Каркасы', 'Фасады', 'Кровля', 'Отделка', 'Под ключ', 'Гарантия 5 лет'].map((t) => (
+              {['Беседки', 'Заборы', 'Каркасы', 'Фасады', 'Кровля', 'Отделка', 'Под ключ', 'Гарантия 1 год'].map((t) => (
                 <span key={t} className="font-display uppercase tracking-widest text-lg mx-6 flex items-center gap-6">
                   {t} <Icon name="Plus" size={16} />
                 </span>
@@ -229,7 +229,7 @@ export default function Index() {
               Работаем по договору, фиксируем смету и сроки.
             </p>
             <ul className="space-y-3">
-              {['Договор и фиксированная смета', 'Собственные бригады без посредников', 'Гарантия на работы до 5 лет', 'Бесплатный выезд замерщика'].map((f) => (
+              {['Договор и фиксированная смета', 'Собственные бригады без посредников', 'Гарантия на работы до 1 год', 'Бесплатный выезд замерщика'].map((f) => (
                 <li key={f} className="flex items-center gap-3">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center shrink-0">
                     <Icon name="Check" className="text-primary-foreground" size={14} />
