@@ -21,7 +21,7 @@ const FACADE_2 = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562
 
 const PORTFOLIO = [
   { img: HERO_IMG, title: 'Беседка 4×5 с мангалом', place: 'Бор', double: false },
-  { img: FACADE_1, img2: FACADE_2, title: 'Фасад дома', place: 'Кстово', double: true },
+  { img: FACADE_2, img2: FACADE_1, title: 'Фасад дома', place: 'Кстово', double: true },
   { img: HERO_IMG, title: 'Каркасный дом 120 м²', place: 'Дзержинск', double: false },
 ];
 
