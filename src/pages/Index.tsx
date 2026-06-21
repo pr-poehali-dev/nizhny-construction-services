@@ -253,7 +253,7 @@ export default function Index() {
             </p>
             <div className="space-y-4">
               {[
-                { icon: 'Phone', label: '+7 (831) 000-00-00', sub: 'Ежедневно 8:00 — 21:00' },
+                { icon: 'Phone', label: '+7 904 917-57-46', sub: 'Ежедневно 8:00 — 21:00' },
                 { icon: 'Mail', label: 'info@stroyvektor.ru', sub: 'Ответим в течение дня' },
                 { icon: 'MapPin', label: 'Нижний Новгород', sub: 'Выезд по всей области' },
               ].map((c) => (
