@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 
 const HERO_IMG = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/files/590c19ce-9eb2-415d-99e8-bdec98029984.jpg';
-const FACADE_IMG = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/files/363aca26-5efb-47a2-a1e5-4b1d08525a1d.jpg';
+const FACADE_IMG = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/files/9f1d8fd4-23e6-4440-8833-0525f6e78db4.jpg';
 
 const SERVICES = [
   { icon: 'TreePine', title: 'Беседки', desc: 'Деревянные и металлические беседки под ключ для дачи и сада', price: 'от 65 000 ₽' },
