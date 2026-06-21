@@ -16,10 +16,13 @@ const SERVICES = [
   { icon: 'PaintRoller', title: 'Внутренняя отделка', desc: 'Черновая и чистовая отделка помещений любой сложности', price: 'от 2 400 ₽/м²' },
 ];
 
+const FACADE_1 = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/bucket/9c237a5d-802c-411c-9073-06b04a7cf5e3.jpg';
+const FACADE_2 = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/bucket/77ef9ed0-2dad-483d-8099-afa32f348dd4.jpg';
+
 const PORTFOLIO = [
-  { img: HERO_IMG, title: 'Беседка 4×5 с мангалом', place: 'Бор' },
-  { img: FACADE_IMG, title: 'Вентфасад коттеджа', place: 'Кстово' },
-  { img: HERO_IMG, title: 'Каркасный дом 120 м²', place: 'Дзержинск' },
+  { img: HERO_IMG, title: 'Беседка 4×5 с мангалом', place: 'Бор', double: false },
+  { img: FACADE_1, img2: FACADE_2, title: 'Фасад дома', place: 'Кстово', double: true },
+  { img: HERO_IMG, title: 'Каркасный дом 120 м²', place: 'Дзержинск', double: false },
 ];
 
 const REVIEWS = [
@@ -169,18 +172,36 @@ export default function Index() {
           <h2 className="font-display font-bold uppercase text-4xl sm:text-6xl mt-2">Выполненные работы</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-5">
-          {PORTFOLIO.map((p, i) => (
-            <div key={i} className="group relative rounded-lg overflow-hidden aspect-[4/5] cursor-pointer">
-              <img src={p.img} alt={p.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
-              <div className="absolute bottom-0 inset-x-0 p-6">
-                <div className="text-primary text-sm uppercase tracking-wide mb-1 flex items-center gap-1">
-                  <Icon name="MapPin" size={14} /> {p.place}
+          {PORTFOLIO.map((p, i) =>
+            p.double ? (
+              <div key={i} className="group relative rounded-lg overflow-hidden aspect-[4/5] cursor-pointer flex flex-col gap-1">
+                <div className="relative flex-1 overflow-hidden rounded-t-lg">
+                  <img src={p.img} alt={p.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 </div>
-                <h3 className="font-display font-semibold uppercase text-2xl">{p.title}</h3>
+                <div className="relative flex-1 overflow-hidden rounded-b-lg">
+                  <img src={p.img2} alt={p.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
+                  <div className="absolute bottom-0 inset-x-0 p-5">
+                    <div className="text-primary text-sm uppercase tracking-wide mb-1 flex items-center gap-1">
+                      <Icon name="MapPin" size={14} /> {p.place}
+                    </div>
+                    <h3 className="font-display font-semibold uppercase text-2xl">{p.title}</h3>
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            ) : (
+              <div key={i} className="group relative rounded-lg overflow-hidden aspect-[4/5] cursor-pointer">
+                <img src={p.img} alt={p.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
+                <div className="absolute bottom-0 inset-x-0 p-6">
+                  <div className="text-primary text-sm uppercase tracking-wide mb-1 flex items-center gap-1">
+                    <Icon name="MapPin" size={14} /> {p.place}
+                  </div>
+                  <h3 className="font-display font-semibold uppercase text-2xl">{p.title}</h3>
+                </div>
+              </div>
+            )
+          )}
         </div>
       </section>
 
