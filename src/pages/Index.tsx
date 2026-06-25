@@ -143,9 +143,9 @@ export default function Index() {
         <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
           <div>
             <span className="text-primary uppercase tracking-widest text-sm font-medium">01 — Каталог</span>
-            <h2 className="font-display font-bold uppercase text-4xl sm:text-6xl mt-2">Услуги и проекты</h2>
+            <h2 className="font-display font-bold uppercase text-4xl sm:text-6xl mt-2">Услуги</h2>
           </div>
-          <p className="text-muted-foreground max-w-sm">Полный цикл работ: от проекта и сметы до сдачи объекта под ключ.</p>
+          <p className="text-muted-foreground max-w-sm">Полный цикл работ: «От сметы до сдачи проекта: сроки и цена согласованы»</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {SERVICES.map((s) => (
