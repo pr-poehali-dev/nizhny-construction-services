@@ -9,7 +9,7 @@ const FACADE_IMG = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c5
 
 const SERVICES = [
   { icon: 'TreePine', title: 'Беседки', desc: 'Деревянные и металлические беседки под ключ для дачи и сада', price: 'от 65 000 ₽' },
-  { icon: 'Fence', title: 'Заборы', desc: 'Профнастил, евроштакетник', price: 'от 1 200 ₽/м' },
+  { icon: 'Fence', title: 'Заборы', desc: 'Профнастил, евроштакетник', price: 'от 2 100 ₽/м' },
   { icon: 'Frame', title: 'Каркасы', desc: 'Каркасные дома и пристройки по технологии', price: 'от 9 500 ₽/м²' },
   { icon: 'LayoutPanelTop', title: 'Фасады', desc: 'Термопанели, сайдинг, облицовка', price: 'от 1 300 ₽/м²' },
   { icon: 'Home', title: 'Кровля', desc: 'Стропильная система, металлочерепица, профлист, мягкая кровля', price: 'от 950 ₽/м²' },
