@@ -13,7 +13,7 @@ const SERVICES = [
   { icon: 'Frame', title: 'Каркасы', desc: 'Каркасные дома и пристройки по технологии', price: 'от 9 500 ₽/м²' },
   { icon: 'LayoutPanelTop', title: 'Фасады', desc: 'Термопанели, сайдинг, облицовка', price: 'от 1 300 ₽/м²' },
   { icon: 'Home', title: 'Кровля', desc: 'Стропильная система, металлочерепица, профлист, мягкая кровля', price: 'от 950 ₽/м²' },
-  { icon: 'PaintRoller', title: 'Внутренняя отделка', desc: 'Черновая и чистовая отделка помещений любой сложности', price: 'от 2 400 ₽/м²' },
+  { icon: 'PaintRoller', title: 'Внутренняя отделка', desc: 'Черновая и чистовая отделка помещений любой сложности', price: 'от 12 500 ₽/м²' },
 ];
 
 const FACADE_1 = 'https://cdn.poehali.dev/projects/1ead2e5a-fade-4c8e-ae2a-0c562210258d/bucket/9c237a5d-802c-411c-9073-06b04a7cf5e3.jpg';
