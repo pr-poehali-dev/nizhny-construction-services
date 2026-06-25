@@ -270,7 +270,7 @@ export default function Index() {
             <span className="text-primary uppercase tracking-widest text-sm font-medium">05 — Контакты</span>
             <h2 className="font-display font-bold uppercase text-4xl sm:text-6xl mt-2 mb-6">Оставить заявку</h2>
             <p className="text-muted-foreground mb-8 max-w-md">
-              Оставьте заявку — мы подберём решение специально для вас. Менеджер свяжется в течение часа.
+              Заполните форму - мы подберём решение специально для вас. Менеджер свяжется в течение часа.
             </p>
             <div className="space-y-4">
               {[
