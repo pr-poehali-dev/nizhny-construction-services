@@ -145,7 +145,7 @@ export default function Index() {
             <span className="text-primary uppercase tracking-widest text-sm font-medium">01 — Каталог</span>
             <h2 className="font-display font-bold uppercase text-4xl sm:text-6xl mt-2">Услуги</h2>
           </div>
-          <p className="text-muted-foreground max-w-sm">Полный цикл работ: «От сметы до сдачи проекта: сроки и цена согласованы»</p>
+          <p className="text-muted-foreground max-w-sm">Полный цикл работ: «От сметы до сдачи объекта: сроки и стоимость согласованы заранее»</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {SERVICES.map((s) => (
