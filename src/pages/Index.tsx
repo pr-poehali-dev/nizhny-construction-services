@@ -40,6 +40,7 @@ const STATS = [
 
 const NAV = [
   { id: 'services', label: 'Услуги' },
+  { id: 'portfolio', label: 'Портфолио' },
   { id: 'reviews', label: 'Отзывы' },
   { id: 'about', label: 'О нас' },
   { id: 'contacts', label: 'Контакты' },
